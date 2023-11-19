@@ -1,0 +1,17 @@
+.rec.rec-arrow {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  font-size: 1.2rem;
+}
+.rec.rec-arrow:focus {
+  background-color: black !important;
+  box-shadow: none !important;
+}
+.rec.rec-arrow:hover {
+  background-color: black !important;
+  box-shadow: none !important;
+}
+.rec.rec-pagination {
+  display: none;
+}

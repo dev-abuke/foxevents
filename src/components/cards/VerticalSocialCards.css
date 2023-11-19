@@ -1,0 +1,60 @@
+.top-box {
+  -webkit-mask: radial-gradient(circle 0rem at top left, #0000 98%, #000) top
+      left,
+    radial-gradient(circle 0rem at top right, #0000 98%, #000) top right,
+    radial-gradient(circle 0.9rem at bottom left, #0000 98%, #000) bottom left,
+    radial-gradient(circle 0.9rem at bottom right, #0000 98%, #000) bottom right;
+  -webkit-mask-size: 51% 51%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.box {
+  filter: drop-shadow(0rem 0rem 0.5rem rgba(0, 0, 0, 0.123));
+  height: 100%;
+}
+.box1 {
+  filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.123));
+  height: 100%;
+}
+.bottom-box {
+  -webkit-mask: radial-gradient(circle 0.9rem at top left, #0000 98%, #000) top
+      left,
+    radial-gradient(circle 0.9rem at top right, #0000 98%, #000) top right,
+    radial-gradient(circle 0.9rem at 140px 109px, #0000 98%, #000) bottom left,
+    radial-gradient(circle 1rem at 0 110px, #0000 98%, #000) bottom right;
+  -webkit-mask-size: 51% 51%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.line4 {
+  margin: 0 15px;
+  height: 2px;
+  width: 15rem;
+  background: repeating-linear-gradient(90deg, #e5e7eb 0 12px, #0000 0 25px);
+}
+
+@media (max-width: 640px) {
+  .line4 {
+    width: 8rem;
+    margin: 0 1rem;
+  }
+  .top-box {
+    -webkit-mask: radial-gradient(circle 0rem at top left, #0000 98%, #000) top
+        left,
+      radial-gradient(circle 0rem at top right, #0000 98%, #000) top right,
+      radial-gradient(circle 0.6rem at bottom left, #0000 98%, #000) bottom left,
+      radial-gradient(circle 0.6rem at bottom right, #0000 98%, #000) bottom
+        right;
+    -webkit-mask-size: 51% 51%;
+    -webkit-mask-repeat: no-repeat;
+  }
+  .bottom-box {
+    -webkit-mask: radial-gradient(circle 0.6rem at top left, #0000 98%, #000)
+        top left,
+      radial-gradient(circle 0.6rem at top right, #0000 98%, #000) top right,
+      radial-gradient(circle 1rem at 80px 105px, #0000 98%, #000) bottom left,
+      radial-gradient(circle 1rem at 0 104px, #0000 98%, #000) bottom right;
+    -webkit-mask-size: 51% 51%;
+    -webkit-mask-repeat: no-repeat;
+  }
+}
